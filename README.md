@@ -1,12 +1,13 @@
 # ast-tools
 
-Tools that `ast` does not need: for installing by hand and for repository maintainers.
+`astpkg`: the maintainer tool of `ast` repositories.
 
 ```
-astfstab ROOT   fstab lines for what is mounted under ROOT
-astchroot ROOT  enter ROOT
-astrap ROOT     install the base into ROOT
-astpkg          keygen, pack, build, index, publish
+astpkg keygen NAME   make a key pair
+astpkg pack          pack a directory
+astpkg build RECIPE  build a recipe
+astpkg index DIR     sign and index
+astpkg publish       build and index
 ```
 
 ```

@@ -8,25 +8,9 @@ repository = "https://github.com/ast-os/ast-tools"
 [dependencies]
 ast = { git = "https://github.com/ast-os/ast-pm", rev = "3022082d68db4fa73a6bd2227ad444293f246234" }
 
-[lib]
-name = "ast_tools"
-path = "src/lib.rs"
-
 [[bin]]
 name = "astpkg"
 path = "src/bin/astpkg.rs"
-
-[[bin]]
-name = "astrap"
-path = "src/bin/astrap.rs"
-
-[[bin]]
-name = "astfstab"
-path = "src/bin/astfstab.rs"
-
-[[bin]]
-name = "astchroot"
-path = "src/bin/astchroot.rs"
 
 [profile.release]
 lto = true
