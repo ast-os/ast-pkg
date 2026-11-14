@@ -6,7 +6,7 @@ license = "BSD-3-Clause"
 repository = "https://github.com/ast-os/ast-tools"
 
 [dependencies]
-ast = { git = "https://github.com/ast-os/ast-pm", rev = "50635eb22674ba7458a38e3c0e48449649dbca32" }
+ast = { git = "https://github.com/ast-os/ast-pm", rev = "3022082d68db4fa73a6bd2227ad444293f246234" }
 
 [lib]
 name = "ast_tools"

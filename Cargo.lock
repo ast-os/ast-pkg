@@ -11,7 +11,7 @@ checksum = "320119579fcad9c21884f5c4861d16174d0e06250625266f50fe6898340abefa"
 [[package]]
 name = "ast"
 version = "0.1.0"
-source = "git+https://github.com/ast-os/ast-pm?rev=50635eb22674ba7458a38e3c0e48449649dbca32#50635eb22674ba7458a38e3c0e48449649dbca32"
+source = "git+https://github.com/ast-os/ast-pm?rev=3022082d68db4fa73a6bd2227ad444293f246234#3022082d68db4fa73a6bd2227ad444293f246234"
 dependencies = [
  "bzip2",
  "ed25519-dalek",
