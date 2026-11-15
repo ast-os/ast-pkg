@@ -30,7 +30,7 @@ dependencies = [
 ]
 
 [[package]]
-name = "ast-tools"
+name = "ast-pkg"
 version = "0.1.0"
 dependencies = [
  "ast",

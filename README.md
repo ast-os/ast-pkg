@@ -1,4 +1,4 @@
-# ast-tools
+# ast-pkg
 
 `astpkg`: the maintainer tool of `ast` repositories.
 

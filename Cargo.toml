@@ -1,9 +1,9 @@
 [package]
-name = "ast-tools"
+name = "ast-pkg"
 version = "0.1.0"
 edition = "2024"
 license = "BSD-3-Clause"
-repository = "https://github.com/ast-os/ast-tools"
+repository = "https://github.com/ast-os/ast-pkg"
 
 [dependencies]
 ast = { git = "https://github.com/ast-os/ast-pm", rev = "3022082d68db4fa73a6bd2227ad444293f246234" }
